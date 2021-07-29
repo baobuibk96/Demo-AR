@@ -131,7 +131,7 @@ function initialize()
 
 	const dracoLoader = new DRACOLoader();
 				dracoLoader.setDecoderPath( './node_modules/three/examples/js/libs/draco/gltf/' );
-	new GLTFLoader().setDRACOLoader( dracoLoader ).load( 'ferrari.glb', function ( gltf ) {
+	new GLTFLoader().setDRACOLoader( dracoLoader ).load( 'models/ferrari.glb', function ( gltf ) {
 		const carModel = gltf.scene.children[ 0 ];
 		
 		carModel.scale.set(0.25,0.25,0.25);

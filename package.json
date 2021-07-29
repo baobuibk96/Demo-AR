@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "serve ."
+  },
   "dependencies": {
     "three": "^0.130.1"
   }
